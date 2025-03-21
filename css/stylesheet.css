@@ -4,3 +4,6 @@
     width: 50px;
     align-items:start;
 }
+body {
+    background-image: url("../images/robbert.jpeg");
+}
