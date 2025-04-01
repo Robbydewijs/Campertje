@@ -1,9 +1,8 @@
-.robert {
-    border-radius:  10px;
+
+.campertje-logo {
+
     height: 50px;
-    width: 50px;
-    align-items:start;
-}
-body {
-    background-image: url("../images/robbert.jpeg");
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
