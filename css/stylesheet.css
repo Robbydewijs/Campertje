@@ -1,36 +1,24 @@
 
 .campertje-logo {
 
-    height: 50px;
+    height: 80px;
     padding-left: 10px;
     padding-right: 10px;
-
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
 }
 
-.nav_item_right {
-position: absolute;
-right: 0;
-padding-right: 10px;
-}
-
-.video_background {
-    position: absolute;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-    right: 0;
-    left: 0;
+.campertje-logo:hover {
+    cursor: pointer;
+    background-color: #2ea3ac;
     
+    transition: background-color 0.3s ease;
     
 }
 
-.video_text {
-    top: 50%;
-    text-align: center;
-    position: absolute;
-    align-items: center;
-    width: 100%;
-}
+.container-fluid {
+    background-color: #81cac4;
+    height: 100px;
+    padding: 0px;
 
+}
