@@ -64,3 +64,17 @@
 
 
  }
+
+ .div-box-vid {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    height: 30vh;
+    background-color: blue;
+    min-width: 30%;
+
+    
+    
+    
+ }
