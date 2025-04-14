@@ -1,13 +1,13 @@
 
 .campertje-logo {
 
-    height: 7vh;
+    height: 8vh;
     padding-left: 10px;
     padding-right: 10px;
     transition: background-color 0.3s ease;
     border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10,8px;
+    margin-bottom: 10,8px;
 }
 
 .campertje-logo:hover {
@@ -37,7 +37,7 @@
 }
 .navbar {
     border-bottom : 4px solid #2e5055;
-    height: 10vh;
+    z-index: 999;
 }
 
 
@@ -78,14 +78,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 110vh;
+    height: 109.2vh;
     background: rgba(0, 0, 0, 0.5);
     z-index: -1;
  }
 
  .t-overlay-vid {
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     width: 100%;
     padding-top: 100px;
     padding-left: 300px;
@@ -93,7 +93,7 @@
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    z-index: 2;
+    z-index: 1;
 
  }
 
@@ -128,6 +128,8 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.3s ease;
+    z-index: 1;
+
  }
 
  .text-overlay a:hover {
@@ -149,30 +151,47 @@
     .text-overlay {
         padding-left: 40px;
         padding-right: 40px;
-        top: 15vh;
+        top: 30vh;
+        background-color: rgba(0, 0, 0, 0.5);;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
     .text-overlay h2 {
-        font-size: 4rem;
-    }
-
-    .text-overlay h3 {
         font-size: 3rem;
     }
 
+    .text-overlay h3 {
+        font-size: 2rem;
+    }
+
     .text-overlay p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .background-vid {
-        height: 60vh;
+        height: 80vh;
     }
 
     .h100 {
-        height: 60vh;
+        height: 80vh;
     }
 
     .overlay {
-        height: 70vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 0%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+    }
+
+    .campertje-logo {
+
+        height: 4vh;
+        padding-top: 0,5vh;
+        padding-bottom: 0,5vh;
+
     }
  }
  
