@@ -1,24 +1,26 @@
 
 .campertje-logo {
 
-    height: 8vh;
+    height: 6vh;
     padding-left: 10px;
     padding-right: 10px;
     transition: background-color 0.3s ease;
     border-radius: 5px;
-    margin-top: 10,8px;
-    margin-bottom: 10,8px;
+
+    padding: 10px 10px 10px 10px;
 }
 
 .campertje-logo:hover {
     cursor: pointer;
-    background-color: #97ebe4;
+    background-color: #004e4b4d;
     
     transition: background-color 0.3s ease;
     
 }
 
-
+#highlight {
+    color: #ff7e21;
+}
 .navbar-nav {
     display: flex;
     justify-content: center;
@@ -31,15 +33,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     z-index: -2;
 }
+
 .navbar {
-    border-bottom : 4px solid #2e5055;
+    border-bottom : 4px solid #004e4b;
     z-index: 999;
 }
-
 
 .navbar-nav li a{
     color: rgb(0, 0, 0);
@@ -55,11 +57,10 @@
 }
 
 .navbar-nav :hover {
-    background-color: #2e5055;
+    background-color: #004e4b;
     border-radius: 10px;
     
 }
-
 
  .h100 {
     height: 100vh;
@@ -68,20 +69,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-bottom: 4px solid #2e5055;
     position: relative;
     object-fit: cover;
- }
-
- .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 109.2vh;
     background: rgba(0, 0, 0, 0.5);
-    z-index: -1;
- }
+}
 
  .t-overlay-vid {
     position: absolute;
@@ -95,27 +86,27 @@
     color: #fff;
     z-index: 1;
 
- }
+}
 
  .text-overlay {
     
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: bold;
- }
+}
 
  .text-overlay p {
     font-size: 2rem;
     font-style: italic;
- }
+}
 
  .text-overlay h2 {
     font-size: 7rem;
- }
+}
 
  .text-overlay h3 {
     font-size: 5rem;
- }
+}
 
  .text-overlay a {
     display: inline-block;
@@ -130,7 +121,7 @@
     transition: 0.3s ease;
     z-index: 1;
 
- }
+}
 
  .text-overlay a:hover {
     display: inline-block;
@@ -144,7 +135,93 @@
     letter-spacing: 6px;
     transition: 0.3s ease;
 
- }
+}
+
+.c-container {
+    min-height: 10vh;
+    min-width: 25vh;
+    transition: 0.3s;
+    text-decoration: none;
+    position: relative;
+}
+
+    
+.c-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+    position: absolute;
+    
+}
+
+.c-container img {
+    border-radius: 30px;
+}
+
+.c-container:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+
+}
+
+.c-container p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #000000;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    height: 8vh;
+    background-color: #004e4b;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: end;
+    
+}
+.footer-container p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: bold;
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    text-align: end;
+}
+
+.footer-logo {
+    height: 40px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+
+.footer-logo:hover {
+    cursor: pointer;
+    height: 45px;
+    transition: 0.3s;
+}
+
 
  @media (max-width: 1250px) {
 
@@ -165,7 +242,7 @@
     }
 
     .text-overlay p {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .background-vid {
@@ -176,28 +253,27 @@
         height: 80vh;
     }
 
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0%;
-        height: 0%;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: -1;
-    }
-
     .campertje-logo {
 
-        height: 4vh;
+        height: 5vh;
         padding-top: 0,5vh;
         padding-bottom: 0,5vh;
 
     }
- }
+    .c-container h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: bold;
+        font-size: 40px;
+        margin-left: 20px;
+        margin-top: 10px;
+        color: #ffffff;
+        position: absolute;
+        
+    }
 
+}
 
-    
- 
  
 
 
