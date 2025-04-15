@@ -27,9 +27,8 @@
 .card-big {
     min-height: 50vh;
     width: 50vh;
-
     transition: 0.3s;
-
+    text-decoration: none;
 
 }
 
@@ -80,6 +79,7 @@
     min-height: 30vh;
     width: 30vh;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .card-mid h1 {

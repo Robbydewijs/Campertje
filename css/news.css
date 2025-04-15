@@ -1,0 +1,42 @@
+.news-container {
+    width: 100%;
+
+    overflow: hidden;
+    padding: 10px 10% 0 10%;
+}
+.news-back {
+    position: absolute;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 3px 20px;
+    border-radius: 0px 30px 30px 0px;
+    transition: 0.3s;
+}
+.news-back:hover {
+    padding: 3px 30px;
+    letter-spacing: 6px;
+    transition: 0.3s;
+}
+
+.news-img {
+    width: 100%;
+    z-index: -1;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.news-container h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+}
+
+.news-container p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+}
