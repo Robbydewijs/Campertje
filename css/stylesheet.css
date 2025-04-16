@@ -272,6 +272,9 @@
         
     }
 
+	 .card-img-top {
+  margin-bottom: 10px; /* Of 24px voor iets meer ruimte */
+}
 }
 
  
