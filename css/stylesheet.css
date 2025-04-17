@@ -224,6 +224,92 @@
 }
 
 
+	 .card-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: #666;
+  flex-grow: 1;
+}
+
+.card-content button {
+  background-color: #004E4B;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card-content button:hover {
+  background-color: #FF8B37;
+}
+	 
+.read-more-btn {
+  background-color: #004E4B;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* zorg dat het geen onderstreepte link is */
+  display: inline-block;
+  text-align: center;
+}
+
+.read-more-btn:hover {
+  background-color: #FF8B37;
+}
+
+
+.titles {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #004E4B;
+}
+
+
  @media (max-width: 1250px) {
 
     .text-overlay {
@@ -276,7 +362,9 @@
 	 .card-img-top {
   margin-bottom: 10px; /* Of 24px voor iets meer ruimte */
 }
-}
+
+
+
 
  
 
