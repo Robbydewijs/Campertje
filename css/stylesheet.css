@@ -225,6 +225,20 @@
     transition: 0.3s;
 }
 
+.about-full-bg {
+  background-color: #004E4B;
+  padding: 5rem 1rem;
+  color: white;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+
 .about-section {
   text-align: center;
   padding: 4rem 2rem;
@@ -245,27 +259,33 @@
 
 .about-section p {
   font-size: 1rem;
-  color: #dddddd; /* iets zachter dan wit */
+  color: #FFFFFF; 
   line-height: 1.8;
   margin-bottom: 2rem;
 }
 
 
-.about-btn {
-  background-color: #FF8B37;
-  color: #fff;
-  padding: 0.75rem 2rem;
-  border-radius: 30px;
-  text-decoration: none;
+.cta-btn {
+  background-color: #FF8B37; /* Oranje kleur */
+  color: white;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
-  letter-spacing: 1px;
-  font-size: 0.85rem;
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  box-shadow: none;
   transition: background-color 0.3s ease;
 }
 
-.about-btn:hover {
-  background-color: #FF8B37;
+.cta-btn:hover {
+  background-color: #e67629; /* Donkerdere oranje op hover */
 }
+
 
 
 
