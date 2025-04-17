@@ -1,9 +1,11 @@
 
-.body, html {
-  margin: 0;
-  padding: 0;
+body {
+  font-family: "museo-sans", sans-serif;
 }
 
+* {
+  font-family: "museo-sans", sans-serif;
+}
 
 
 .campertje-logo {
@@ -104,7 +106,7 @@
 
  .text-overlay {
     
-    font-family: "Poppins", sans-serif;
+    font-family: "museo-sans", sans-serif;
     font-weight: 200;
     font-style: normal;
 	text-align: center
@@ -162,9 +164,9 @@
 
     
 .c-container h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: bold;
+    font-family: "museo-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
     font-size: 60px;
     margin-left: 20px;
     margin-top: 10px;
@@ -208,9 +210,9 @@
 }
 
 .footer-container h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: bold;
+    font-family: "museo-sans", sans-serif;
+	font-weight: 300;
+	font-style: normal;
     font-size: 20px;
     color: #ffffff;
     margin-top: 0px;
