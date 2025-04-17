@@ -7,6 +7,16 @@ body {
   font-family: "museo-sans", sans-serif;
 }
 
+.highlight {
+  font-weight: 700; /* or 600 if that fits your style better */
+}
+
+.blogs-subtext {
+  max-width: 900px; /* of 700px of een andere waarde naar wens */
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 .campertje-logo {
 
