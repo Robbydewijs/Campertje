@@ -1,4 +1,10 @@
 
+.body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
 .campertje-logo {
 
     height: 6vh;
@@ -72,12 +78,14 @@
     position: relative;
     object-fit: cover;
     background: rgba(0, 0, 0, 0.5);
+	margin-bottom: 0;
 }
 
  .t-overlay-vid {
     position: absolute;
     top: 20vh;
     width: 100%;
+	padding-bottom: 0px;
     padding-top: 100px;
     padding-left: 300px;
     padding-right: 300px;
@@ -85,6 +93,7 @@
     align-items: center;
     color: #fff;
     z-index: 1;
+	margin-bottom: 0;
 
 }
 
@@ -199,7 +208,7 @@
     font-style: bold;
     font-size: 20px;
     color: #ffffff;
-    margin-top: 30px;
+    margin-top: 0px;
     text-align: end;
     
 }
@@ -225,44 +234,148 @@
     transition: 0.3s;
 }
 
-.about-full-bg {
-  background-color: #004E4B;
-  padding: 5rem 1rem;
-  color: white;
+.hero-section {
+  background-color: #1e4b47;
+  color: #ffffff;
+  padding: 60px 20px;
+  margin-top: 0;
 }
 
-.about-content {
-  max-width: 900px;
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
+.hero-content {
+  flex: 1 1 400px;
+}
 
-.about-section {
+.icon {
+  font-size: 12px;
+  margin-bottom: 16px;
+  width: 100px;
+  height: auto;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+h2 .titles {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-right: 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-primary {
+  background-color: #FA864A;
+  color: #fff;
+}
+
+.cta-secondary {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  width: 300px;
+  aspect-ratio: 1 / 1; /* vierkant */
+}
+
+.core-values {
+  padding: 30px 20px 60px; /* top, right/left, bottom */
+  background-color: #fdfdfd;
   text-align: center;
-  padding: 4rem 2rem;
-  max-width: 900px;
+}
+
+.core-values h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif;
+  color: #1e4b47;
+}
+
+.values-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
   margin: 0 auto;
-  font-family: "Poppins", sans-serif;
-  background-color: #004E4B; /* donkergroene achtergrond */
-  border-radius: 16px; /* optioneel: afgeronde hoeken */
-
 }
 
-.about-section h2 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #ffffff; /* wit voor contrast */
-  margin-bottom: 1.5rem;
+.value-item {
+  flex: 1 1 220px;
+  padding: 20px;
 }
 
-.about-section p {
-  font-size: 1rem;
-  color: #FFFFFF; 
-  line-height: 1.8;
-  margin-bottom: 2rem;
+.value-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px;
 }
+
+.value-item h3 {
+  font-size: 20px;
+  color: #1e4b47;
+  margin-bottom: 10px;
+}
+
+.value-item p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+}
+
+
+/* Responsive voor mobiel */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content, .hero-image {
+    flex: 1 1 100%;
+  }
+
+  .cta-buttons a {
+    margin-bottom: 12px;
+  }
+
+  .cta-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 
 .cta-btn {
@@ -374,6 +487,99 @@
   margin-bottom: 0.5rem;
   color: #004E4B;
 }
+
+/* Hele sectie */
+.contact-section {
+  padding: 60px 0px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.form-background {
+  width: 100%;
+  background-color: #1e4b47; /* Campertje groen */
+  border-radius: 0px;
+  padding: 40px;
+}
+
+
+/* Overlay blok voor formulier */
+.form-overlay {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* Titels en algemene stijl */
+.form-overlay h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+  font-size: 28px;
+  color: #1e4b47;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #1e4b47;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-btn {
+  background-color: #FA864A;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+}
+
+.submit-btn:hover {
+  background-color: #e67629;
+}
+
+
+
+
 
 
  @media (max-width: 1250px) {
