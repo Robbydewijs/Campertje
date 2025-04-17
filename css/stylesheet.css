@@ -186,9 +186,11 @@
     align-items: center;
     margin-top: 40px;
     height: 8vh;
+    width: 100%;
     background-color: #004e4b;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: auto;
 }
 
 .footer-container h1 {
