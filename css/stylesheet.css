@@ -213,7 +213,7 @@ body {
     margin-top: 40px;
     height: 8vh;
     width: 100%;
-    background-color: #004e4b;
+    background-color: #1E4B47;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: auto;
@@ -447,14 +447,98 @@ p {
   background-color: #FF8B37;
 }
 
-  .hero-container {
+.custom-hero {
+  background-color: #1e4b47;
+  color: white;
+  padding: 80px 20px;
+  font-family: 'museo-sans', sans-serif;
+}
+
+.custom-hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.custom-hero-text {
+  flex: 1 1 500px;
+}
+
+.custom-hero-icon {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.custom-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.custom-hero p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #e1e1e1;
+}
+
+.custom-hero-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #fa864a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.custom-hero-btn:hover {
+  background-color: #e16e31;
+}
+
+.custom-hero-link {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.custom-hero-link:hover {
+  text-decoration: underline;
+}
+
+.custom-hero-image-wrapper {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.custom-hero-image {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Responsive gedrag */
+@media (max-width: 900px) {
+  .custom-hero-container {
     flex-direction: column;
     text-align: center;
   }
 
-  .hero-content, .hero-image {
-    flex: 1 1 100%;
+  .custom-hero-text {
+    text-align: center;
   }
+
+  .custom-hero-link {
+    margin-bottom: 30px;
+  }
+}
+
 
   .cta-buttons a {
     margin-bottom: 12px;
