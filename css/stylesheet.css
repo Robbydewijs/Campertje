@@ -68,6 +68,10 @@
     
 }
 
+.centeredtext {
+	text-align: center
+}
+
  .h100 {
     height: 100vh;
     display: flex;
@@ -399,6 +403,60 @@ p {
   background-color: #e67629; /* Donkerdere oranje op hover */
 }
 
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* Zorgt dat de afbeelding mooi vult */
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* donkere overlay */
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  color: white;
+  text-align: center;
+  z-index: 3;
+  padding: 0 20px;
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.hero-content h1 span {
+  font-weight: 700;
+}
+
+.hero-content p {
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
 
 
 
