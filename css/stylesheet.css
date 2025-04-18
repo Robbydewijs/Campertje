@@ -111,6 +111,18 @@ body {
   color: #555;
 }
 
+.subscribe-ls {
+  background-color: #004e4b;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.subscribe-ls-text {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+}
 .subscription-section {
   background-color: #1E4B47;
   padding: 60px 20px;
