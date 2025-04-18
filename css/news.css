@@ -41,12 +41,17 @@
     font-size: 40px;
 }
 
+
+
+
 /* Hele sectie */
 .contact-section {
   padding: 60px 0px 0px;
   display: flex;
   justify-content: center;
   background-color: #f4f4f4;
+    background: linear-gradient(#FF8B37, #f0f6f5); /* bovenkant oranje, onder wit of lichtgrijs */
+
 }
 
 .form-background {
