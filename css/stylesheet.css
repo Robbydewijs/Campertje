@@ -17,6 +17,113 @@ body {
   text-align: center;
 }
 
+.about-brand {
+  background-color: #004e4b;
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-brand h2 {
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+.about-columns {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1 1 400px;
+  text-align: left;
+}
+
+.column h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ff8b37;
+  font-family: 'Poppins', sans-serif;
+}
+
+.column p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+
+.about-us-section {
+  padding: 4rem 2rem;
+  background-color: #f6f6f6;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-us-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #004e4b;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat;(4, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.team-member {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 160px;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1.25rem;
+  color: #004e4b;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+
+/* Responsive */
+@media (max-width: 992px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 .campertje-logo {
 
@@ -287,10 +394,6 @@ h1 {
   font-weight: bold;
 }
 
-h2 .titles {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
-}
-
 p {
   font-size: 18px;
   margin-bottom: 24px;
@@ -523,6 +626,8 @@ p {
   border-radius: 8px;
 }
 
+
+
 /* Responsive gedrag */
 @media (max-width: 900px) {
   .custom-hero-container {
@@ -644,6 +749,14 @@ p {
   margin-top: 3rem;
   margin-bottom: 0.5rem;
   color: #004E4B;
+}
+
+.whitetitle {
+	
+font-family: "museo-sans", sans-serif;
+font-size: 2.5rem;
+font-weight: 600;
+
 }
 
     .text-overlay {
